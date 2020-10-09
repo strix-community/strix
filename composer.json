@@ -12,7 +12,17 @@
     "license": "MIT",
     "require": {
         "php": "^7.4",
+        "fideloper/proxy": "^4.2",
+        "fruitcake/laravel-cors": "^2.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "laravel/framework": "^8.0",
+        "laravel/tinker": "^2.0",
         "strix/core": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Strix\\": "app/"
+        }
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.4",
@@ -42,7 +52,7 @@
             "@php artisan key:generate --ansi"
         ],
         "post-update-cmd": [
-            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate"
         ]
     },
     "repositories": [
