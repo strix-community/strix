@@ -9,6 +9,9 @@ category: ''
 Strix is in pre-alpha and is not stable. It is not recommended to use Strix at this time.
 </alert>
 
+<img src="/preview.png" class="light-img" alt="Preview light" />
+<img src="/preview-dark.png" class="dark-img" alt="Preview dark" />
+
 ## Prelude
 
 Strix is an open-source community platform primarily focused around Garry's Mod. Strix is built with Laravel, Tailwind, Livewire, and AlpineJS. Designed with developers AND end-users in mind. Strix includes a configurable index, forums, and profile page with more to come. Strix is currently in pre-alpha and does NOT have a current release date.
