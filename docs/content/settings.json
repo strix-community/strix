@@ -1,0 +1,10 @@
+{
+  "title": "Strix Docs",
+  "url": "https://strix-docs.netlify.com",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "strix-community/docs",
+  "twitter": "2datlas"
+}
