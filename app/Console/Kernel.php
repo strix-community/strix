@@ -13,7 +13,6 @@ namespace Strix\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
-use Strix\Providers\RouteServiceProvider;
 
 class Kernel extends ConsoleKernel
 {
