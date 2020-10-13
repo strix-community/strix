@@ -49,3 +49,8 @@ The following command will prompt and create tables in a database. It will not c
   ```
 
   This command will publish the necessary assets along with prompting you for database details so Strix can migrate it's compiled database fille. While Strix does use migrations, it also comes with a dump of all it's migrations to make installation less intensive. 
+
+
+## Configuration
+
+Almost everything in Strix can be changed through the UI for end-users. For developers you can read further into the docs for deep configuration and extending Strix.
