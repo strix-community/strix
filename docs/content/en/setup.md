@@ -32,4 +32,20 @@ chmod -R 755 storage/* bootstrap/cache/
 
 ## Installation
 
-We'll go ahead with installing and configuring Strix.
+We'll go ahead with installing and configuring Strix's dependencies through composer. We won't need to compile assets as they are provided by the `frontend` package.
+
+  ```bash[sh]
+  composer install --no-dev -o
+  ```
+
+  After composer has finished installing our dependencies. Let's actually begin the configuration process for Strix.
+
+<alert type="warning">
+The following command will prompt and create tables in a database. It will not continue installation if your database details are incorrect.
+</alert>
+
+```bash[sh]
+ php artisan strix:install
+  ```
+
+  This command will publish the necessary assets along with prompting you for database details so Strix can migrate it's compiled database fille. While Strix does use migrations, it also comes with a dump of all it's migrations to make installation less intensive. 
